@@ -3,6 +3,7 @@
 /lib
 /classes
 /native
-/.lein-failures
+.lein-failures
 /checkouts
-/.lein-deps-sum
+.lein-deps-sum
+.DS_Store
