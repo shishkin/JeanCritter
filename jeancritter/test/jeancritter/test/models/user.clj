@@ -1,5 +1,6 @@
-(ns jeancritter.models.user
-  (:use clojure.test))
+(ns jeancritter.test.models.user
+  (:use [clojure.test]
+        [jeancritter.models.user]))
 
 (deftest can-create-user []
   (let [user-name "bob"
